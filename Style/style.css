@@ -1,0 +1,29 @@
+.navbar .navbar-brand {
+    width: 15%;
+    height: 15%;
+    padding-right: 1%;
+}
+
+@media (max-width: 990px) {
+    .navbar .navbar-brand {
+        width: 25%;
+        height: 25%;
+        padding-right: 1%;
+    }
+}
+
+.success-btn {
+    border-radius: 10px;
+    padding: 3%;
+    border-color: #bdae26;
+    background-color: transparent;
+    color: #bdae26;
+}
+
+.success-btn:hover {
+    border-radius: 10px;
+    padding: 3%;
+    border-color: transparent;
+    background-color: #bdae26;
+    color: white                                                                                                                                                                                                                                            ;
+}

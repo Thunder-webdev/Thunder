@@ -44,21 +44,35 @@
   animation-play-state: paused;
 }
 
+.track a{
+  text-decoration: none;
+}
+
 .card {
-  min-width: 600px;
-  height: 200px;
+  min-width: 500px;
+  height: 400px;
   flex-shrink: 0;
   color: white;
   border-radius: 24px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-size: 2rem;
+  padding-top: 5px;
 }
 
-.card:nth-child(3n+1) { background: #7958ff; }
-.card:nth-child(3n+2) { background: #5d34f2; }
-.card:nth-child(3n+3) { background: #4300da; }
+.card img {
+  border-radius: 3.5%;
+  margin-bottom: 15px;
+}
+
+.card p{
+  margin: 0;
+}
+
+.card:nth-child(3n+1) { background: #FFD32D; } 
+.card:nth-child(3n+2) { background: #FFC000; } 
+.card:nth-child(3n+3) { background: #FFAA00; }
 
 @keyframes scroll {
   0% {
